@@ -1,10 +1,5 @@
-// src/components/HeaderScoreboard.tsx
 import React from "react";
-
-interface Team {
-  name: string;
-  score: number;
-}
+import { Team } from "./interface/header.interface";
 
 interface Props {
   teamA: Team;
